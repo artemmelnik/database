@@ -1,0 +1,15 @@
+{
+    "name": "artemmelnik/devstart-db",
+    "authors": [
+        {
+            "name": "Artem Melnik",
+            "email": "artemmelnik989@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DevStart\\": "src/"
+        }
+    },
+    "require": {}
+}

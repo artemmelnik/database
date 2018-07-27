@@ -1,1 +1,2 @@
-# database
+# Class Database (PDO)
+
