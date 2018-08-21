@@ -7,7 +7,9 @@
   
 2. Use
 
- ```shell
+### Select
+
+ ```php
   <?php
   
   require_once __DIR__ . '/vendor/autoload.php';
@@ -26,5 +28,16 @@
   
   $db->closeConnection();
   
-  ?>
-  ```
+```
+  
+  ###Insert
+  
+ ```php
+    <?php
+    
+    $insert = $db->query("INSERT INTO posts (title, content) VALUES (:title, :content)", [
+        'title' => 'Hello World',
+        'content' => 'Wrire content'
+    ]);
+
+```
